@@ -63,7 +63,7 @@
                             <include>${project.artifactId}-${project.version}.jar</include>
                         </resource>
                     </resources>
-                    <serverId>docker-hub</serverId>
+                    <serverId>hub-abc</serverId>
                 </configuration>
             </plugin>
         </plugins>

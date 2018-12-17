@@ -54,7 +54,7 @@
                     <serverId>docker-hub</serverId>
                 </configuration>-->
                 <configuration>
-                    <imageName>registry.cn-beijing.aliyuncs.com/liuguofa/abc/${project.artifactId}:${project.version}</imageName>
+                    <imageName>registry.cn-beijing.aliyuncs.com/liuguofa/${project.artifactId}:${project.version}</imageName>
                     <dockerDirectory>${basedir}/src/main/resources/docker</dockerDirectory>
                     <resources>
                         <resource>

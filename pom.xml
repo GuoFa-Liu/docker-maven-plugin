@@ -63,6 +63,9 @@
                             <include>${project.artifactId}-${project.version}.jar</include>
                         </resource>
                     </resources>
+                    <imageTags>
+                        <imageTag>${project.version}</imageTag>
+                    </imageTags>
                     <serverId>hub-abc</serverId>
                 </configuration>
             </plugin>

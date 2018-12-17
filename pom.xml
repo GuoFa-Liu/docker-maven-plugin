@@ -6,7 +6,7 @@
 
     <groupId>com.liuguofa</groupId>
     <artifactId>docker-maven-plugin</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -54,7 +54,7 @@
                     <serverId>docker-hub</serverId>
                 </configuration>-->
                 <configuration>
-                    <imageName>${project.artifactId}:${project.version}</imageName>
+                    <imageName>registry.cn-beijing.aliyuncs.com/liuguofa/abc/${project.artifactId}:${project.version}</imageName>
                     <dockerDirectory>${basedir}/src/main/resources/docker</dockerDirectory>
                     <resources>
                         <resource>

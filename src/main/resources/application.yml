@@ -5,3 +5,7 @@ server:
 spring:
   profiles:
     active: dev
+
+
+logging:
+  path: /tmp
